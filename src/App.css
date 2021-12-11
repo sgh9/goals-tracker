@@ -1,38 +1,76 @@
-.App {
+.goals-header, .goal-form-header {
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+/* .goals-header {
+  border-bottom: 2px solid rgb(109, 109, 230);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+} */
+.goals-header {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.goals-header::after {
+  content: "___";
+  display: block;
+  color: rgb(109, 109, 230);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3rem;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.goal-form-header {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  width: 98%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.list-card-container {
+  width: 100%;
+  max-width: 85%;
+  margin: 0 auto;
+}
+.form-container {
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+input, select {
+  border: 1px solid rgb(65, 172, 235);
+  border-radius: 3px;
+}
+.input-container {
+  margin: 1.5rem 0;
+}
+.form-err {
+  margin: 0 auto;
+  padding: 1rem 0 0 ;
+  color: rgb(233, 109, 109);
+  width: 85%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 960px) {
+  main {
+    flex-direction: row;
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+  .form-container {
+    width: 40%;
+  }
+  .list-card-container {
+    width: 60%;
   }
 }
+

@@ -1,0 +1,20 @@
+.btn {
+    padding: 1rem 1.5rem;
+    width: 100%;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+.btn:focus {
+    outline: none;
+    border: 0;
+
+}
+.btn-submit:hover {
+    transform: scale(0.995);
+}
+.btn-submit {
+    background-color: rgb(71, 71, 241);
+}

@@ -1,0 +1,10 @@
+.input-text {
+    padding: 1rem 1.5rem;
+    width: 100%;
+  
+}
+.input-text:focus {
+    outline: none;
+    box-shadow: 1px 1px 5px 1px rgb(157, 157, 233);
+    border: 1px solid blue;
+}

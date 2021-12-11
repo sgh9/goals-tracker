@@ -1,0 +1,40 @@
+.list-card {
+    padding: 2rem 1.5rem;
+    box-shadow: 0 1px 5px rgb(205, 209, 214);
+    background-color: rgb(244, 247, 248);
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    min-width:100%;
+  }
+  
+  .card-header .title {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+  }
+  .card-body {
+    width: 100%;
+    border-top: 1px solid rgb(95, 180, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-add-goal {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .add-goal-icon {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  .card-footer {
+    padding-top: 2rem;
+  }

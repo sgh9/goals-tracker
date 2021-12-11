@@ -1,0 +1,36 @@
+.list-content {
+  font-size: 1.4rem;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgb(205, 209, 214);
+  padding: 1.5rem 1rem;
+  border-radius: 3px;
+  margin-top: 1.5rem;
+  min-width: 35rem;
+  width: 100%;
+}
+.list-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 6rem;
+}
+.delete-list,
+.update-list {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.list-icons img {
+  width: 100%;
+  padding-left: 1rem;
+  cursor: pointer;
+}
